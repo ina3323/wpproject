@@ -1,0 +1,231 @@
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin:0;
+  padding:0;
+  grid-column: 1/2;
+}
+#searchbox {
+  display:flex;
+  grid-column: 2/6;
+}
+#searchbox input[type="search"] {
+  width:300px
+}
+#login {
+  padding:10px;
+  grid-column: 6/7;
+}
+#signup {
+  padding:10px;
+  grid-column: 7/8;
+}
+#mypage {
+  padding:10px;
+  grid-column: 8/9;
+}
+#recommendation {
+  display:flex;
+  flex-direction: row;
+}
+main {
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+#middle {
+  grid-column: 1/3;
+  grid-row:1/2;
+}
+#bottom {
+  margin:20px;
+  grid-column:1/3;
+  grid-row:2/3;
+  display:flex;
+  flex-direction: row;
+}
+#aside {
+  margin:10px;
+  margin-right:50px;
+  grid-column:3/4;
+  grid-row:1/3;
+  display:flex;
+  flex-direction: column;
+}
+nav {
+  border-left: 3px solid sandybrown;
+  margin-left:50px;
+  padding-left:20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+#recommended_novelcover {
+  margin : 10px;
+  padding : 10px;
+  border: 1px solid black;
+  text-align: center;
+  width : 600px;
+}
+#hotpost {
+  background-color: #f8f9fa;
+  border-left:3px solid sandybrown;
+  border-right:3px solid sandybrown;
+  margin : 10px;
+  padding : 20px;
+  border-radius: 10px;
+}
+#hotpost ul {
+  list-style-type:none;
+  padding: 2px;
+}
+#hotpost ul li {
+  margin-bottom: 5px;
+}
+#user {
+  display:flex;
+  flex-direction: row;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  grid-template-columns: 1fr 1fr;
+  margin:20px;
+  padding:20px;
+  border:1px solid black;
+  max-width: 300px;
+}
+#userinfo {
+  background-color: white;
+  border:1px solid black;
+  border-radius: 10px;
+  margin:5px;
+  padding:15px;
+}
+#userinfo img {
+  margin:10px;
+  width:60px;
+  height:60px;
+}
+#userinfo p {
+  margin:0;
+  padding-top:5px;
+}
+#userfeatures {
+  margin:5px;
+  padding:5px;
+  text-align: center;
+}
+#userfeatures ul {
+  padding:0;
+  margin:0;
+  list-style-type: none;
+}
+#userfeatures ul li {
+  margin-bottom: 20px;
+}
+#userfeatures ul li:first-child {
+  margin-top:10px;
+}
+#userfeatures ul li a {
+  text-decoration: none;
+  color : rgb(128, 61, 2);
+}
+#userforum {
+  border-left:3px solid sandybrown;
+  border-right:3px solid sandybrown;
+  background-color: #f8f9fa;
+  margin : 10px;
+  padding : 20px;
+  border-radius: 10px;
+}
+#userforum ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+#userforum ul li {
+  margin-bottom: 5px;
+}
+#recommended {
+  border-left:3px solid sandybrown;
+  border-right:3px solid sandybrown;
+  background-color: #f8f9fa;
+  margin : 10px;
+  padding : 20px;
+  border-radius: 10px;
+}
+#recommended ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+#recommended ul li {
+  margin-bottom: 5px;
+}
+#newnovel {
+  border-left:3px solid sandybrown;
+  border-right:3px solid sandybrown;
+  background-color: #f8f9fa;
+  margin : 10px;
+  padding : 20px;
+  border-radius: 10px;
+}
+#newnovel ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+#newnovel ul li {
+  margin-bottom: 5px;
+}
+#shortcut {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  padding:40px;
+  margin:20px;
+}
+#shortcut ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+#shortcut ul li {
+  text-align: center;
+  background-color: white;
+  margin-bottom: 20px;
+  border:1px solid black;
+  border-radius: 10px;
+  padding:5px;
+}
+#shortcut ul li a {
+  text-decoration: none;
+  color:black;
+}
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
